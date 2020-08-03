@@ -6,7 +6,7 @@
 
 static const int kBikeWheelSize = 10;
 
-void startBikeWorld() {
+void startCarWorld() {
   std::cout << "[START BIKE WORLD]" << std::endl;
 
   CarFactory car_factory;
@@ -16,7 +16,7 @@ void startBikeWorld() {
   std::cout << "[END BIKE WORLD]" << std::endl;
 }
 
-void startCarWorld() {
+void startBikeWorld() {
   std::cout << "[START CAR WORLD]" << std::endl;
 
   BikeFactory bike_factory(kBikeWheelSize);
@@ -27,6 +27,6 @@ void startCarWorld() {
 }
 
 int main() {
-  startBikeWorld();
   startCarWorld();
+  startBikeWorld();
 }
