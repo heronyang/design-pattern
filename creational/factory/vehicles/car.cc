@@ -6,6 +6,7 @@
 namespace {
 
 class Car : public Vehicle {
+public:
   void move() override {
     // Moves the car with 4 wheels.
     std::cout << "Moving with 4 wheels." << std::endl;
