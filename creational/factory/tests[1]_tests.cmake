@@ -1,7 +1,0 @@
-add_test( WorldTest.Start /Users/heron/projects/design-patterns/creational/factory/tests [==[--gtest_filter=WorldTest.Start]==] --gtest_also_run_disabled_tests)
-set_tests_properties( WorldTest.Start PROPERTIES WORKING_DIRECTORY /Users/heron/projects/design-patterns/creational/factory)
-add_test( BikeTest.Move /Users/heron/projects/design-patterns/creational/factory/tests [==[--gtest_filter=BikeTest.Move]==] --gtest_also_run_disabled_tests)
-set_tests_properties( BikeTest.Move PROPERTIES WORKING_DIRECTORY /Users/heron/projects/design-patterns/creational/factory)
-add_test( CarTest.Move /Users/heron/projects/design-patterns/creational/factory/tests [==[--gtest_filter=CarTest.Move]==] --gtest_also_run_disabled_tests)
-set_tests_properties( CarTest.Move PROPERTIES WORKING_DIRECTORY /Users/heron/projects/design-patterns/creational/factory)
-set( tests_TESTS WorldTest.Start BikeTest.Move CarTest.Move)
