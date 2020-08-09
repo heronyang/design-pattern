@@ -1,32 +1,32 @@
 #include <iostream>
 
-#include "vehicles/bike_factory.h"
-#include "vehicles/car_factory.h"
-#include "world.h"
+#include "vehicle/bike_factory.h"
+#include "vehicle/car_factory.h"
+#include "world/world.h"
 
 static const int kBikeWheelSize = 10;
 
-void startCarWorld() {
+void StartCarWorld() {
   std::cout << "[START CAR WORLD]" << std::endl;
 
   CarFactory car_factory;
   World world(car_factory);
-  world.start();
+  world.Start();
 
   std::cout << "[END CAR WORLD]" << std::endl;
 }
 
-void startBikeWorld() {
+void StartBikeWorld() {
   std::cout << "[START BIKE WORLD]" << std::endl;
 
   BikeFactory bike_factory(kBikeWheelSize);
   World world(bike_factory);
-  world.start();
+  world.Start();
 
   std::cout << "[START BIKE WORLD]" << std::endl;
 }
 
 int main() {
-  startCarWorld();
-  startBikeWorld();
+  StartCarWorld();
+  StartBikeWorld();
 }

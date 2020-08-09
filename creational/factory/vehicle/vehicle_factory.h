@@ -6,11 +6,11 @@
 #include <memory>
 
 /*
- * VehicleFactory creates a vehicle on `create()`. 
+ * VehicleFactory creates a vehicle on `Create()`. 
  */
 class VehicleFactory {
 public:
-  virtual std::unique_ptr<Vehicle> create() = 0;
+  virtual std::unique_ptr<Vehicle> Create() = 0;
 };
 
 #endif

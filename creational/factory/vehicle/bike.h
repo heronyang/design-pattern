@@ -1,7 +1,7 @@
-#ifndef VEHICLES_BIKE_H
-#define VEHICLES_BIKE_H
+#ifndef VEHICLE_BIKE_H
+#define VEHICLE_BIKE_H
 
-#include "../vehicle.h"
+#include "vehicle.h"
 
 #include <memory>
 

@@ -9,7 +9,7 @@ class Bike : public Vehicle {
 public:
   Bike(int wheel_size) : wheel_size_(wheel_size) {}
 
-  void move() override {
+  void Move() override {
     std::cout << "Moving the bike with 2 wheels (size: " << wheel_size_ << ")."
               << std::endl;
   }
