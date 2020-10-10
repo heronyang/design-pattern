@@ -1,9 +1,11 @@
 # Factory
 
-Factory Method creates an object without exposing the creation code to client,
+This examples demostrates two related design patterns:
+
+- **Factory Method** creates an object without exposing the creation code to client,
 and the client uses the same common interface to create new type of object.
 
-Abstract Factory produce families of related objects without specifying the
+- **Abstract Factory** produce families of related objects without specifying the
 concreate classes.
 
 ## Code
