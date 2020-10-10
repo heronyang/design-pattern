@@ -4,7 +4,8 @@ Builder Pattern extracts the construction of a complex object from its user.
 
 ## Code
 
-// TODO
+`DeliveryBuilder` exposes `AddPackage` to accumulate packages into a delivery
+and exposes `Build()` to return the packed delivery.
 
 ## Note
 
