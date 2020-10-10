@@ -1,6 +1,6 @@
 # Factory
 
-This examples demostrates two related design patterns:
+This example demostrates two related design patterns:
 
 - **Factory Method** creates an object without exposing the creation code to client,
 and the client uses the same common interface to create new type of object.
