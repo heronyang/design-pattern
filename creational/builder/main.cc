@@ -26,4 +26,5 @@ int main() {
 
   std::unique_ptr<Delivery> delivery = delivery_builder.Build();
   std::cout << delivery->GetSummary();
+  return 0;
 }
