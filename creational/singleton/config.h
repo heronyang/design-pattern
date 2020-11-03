@@ -6,7 +6,9 @@
 
 class Config {
 public:
+  // Disallow copies.
   Config(Config const &) = delete;
+  // Disallow copies.
   void operator=(Config const &) = delete;
 
   static Config &getInstance() {
