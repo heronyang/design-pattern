@@ -6,7 +6,7 @@ Strategy Patterns allows code to select an algorithm at runtime.
 
 `Cache` allows users to get and put data identified by a key. We implement
 `Cache` with disk and with memory, called `DiskCache` and `MemoryCache`. The
-program decides which to use based on the size of the file, if it's big, it uses
+program decides which to use based on the size of the file - if it's big, it uses
 `DiskCache`; otherwise, `MemoryCache`.
 
 ## Reference
