@@ -1,4 +1,4 @@
-# Strategy Pattern
+# Strategy
 
 Strategy Patterns allows code to select an algorithm at runtime.
 
