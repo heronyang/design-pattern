@@ -13,7 +13,7 @@ next expected one.
 
 ## Diagram
 
-![](behavioral/state/diagram.png)
+![](https://github.com/heronyang/design-pattern/raw/master/behavioral/state/diagram.png)
 
 ## Note
 
