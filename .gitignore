@@ -12,6 +12,7 @@ CTestTestfile.cmake
 _deps
 *.a
 tests*
+main
 
 # Ignores system files.
 .DS_Store
