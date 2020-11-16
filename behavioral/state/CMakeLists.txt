@@ -10,8 +10,8 @@ add_library(process_state process_state.cc running_process_state.cc
   stopped_process_state.cc paused_process_state.cc)
 
 # Binary
-add_executable(state main.cc)
-target_link_libraries(state process process_state)
+add_executable(main main.cc)
+target_link_libraries(main process process_state)
 
 # Test
 enable_testing()

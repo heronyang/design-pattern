@@ -8,8 +8,8 @@ project(strategy)
 add_library(cache memory_cache.cc disk_cache.cc)
 
 # Build executable.
-add_executable(strategy main.cc)
-target_link_libraries(strategy cache)
+add_executable(main main.cc)
+target_link_libraries(main cache)
 
 # Test.
 enable_testing()

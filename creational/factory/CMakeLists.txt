@@ -4,15 +4,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 project(factory)
 
-# Build executable.
-set(SOURCES main.cc world/world.cc vehicle/car.cc vehicle/bike.cc)
-add_executable(factory ${SOURCES})
-
 # Link libraries.
 add_subdirectory(world)
 add_subdirectory(vehicle)
+
+# Build executable.
+set(SOURCES main.cc world/world.cc vehicle/car.cc vehicle/bike.cc)
+add_executable(main ${SOURCES})
 target_include_directories(
-  factory PRIVATE ${PROJECT_SOURCE_DIR}/vehicle ${PROJECT_SOURCE_DIR}/world)
+  main PRIVATE ${PROJECT_SOURCE_DIR}/vehicle ${PROJECT_SOURCE_DIR}/world)
 
 # Test.
 enable_testing()

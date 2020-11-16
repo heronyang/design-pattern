@@ -8,8 +8,8 @@ project(singleton)
 add_library(config config.cc)
 
 # Build executable.
-add_executable(singleton main.cc)
-target_link_libraries(singleton config)
+add_executable(main main.cc)
+target_link_libraries(main config)
 
 # Test.
 enable_testing()

@@ -10,8 +10,8 @@ add_library(letter letter.cc)
 
 # Build executable.
 set(SOURCES main.cc)
-add_executable(prototype ${SOURCES})
-target_link_libraries(prototype resume letter)
+add_executable(main ${SOURCES})
+target_link_libraries(main resume letter)
 
 # Test.
 enable_testing()

@@ -4,13 +4,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 project(builder)
 
-# Build executable.
-set(SOURCES main.cc package.cc delivery.cc delivery_builder.cc)
-add_executable(builder ${SOURCES})
-
 # Library.
 add_library(package package.cc)
 add_library(delivery delivery.cc delivery_builder.cc)
+
+# Build executable.
+set(SOURCES main.cc package.cc delivery.cc delivery_builder.cc)
+add_executable(main ${SOURCES})
 
 # Test.
 enable_testing()
